@@ -7,7 +7,7 @@ Reset options and game statistics are also available.
 
 This project consists of backend (run with **Express.JS**) and fronted servers (run with **React.JS**). Client-side was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="./public/demo1.PNG">
+<img src="client/public/demo1.PNG">
 
 ## How to proceed
 
