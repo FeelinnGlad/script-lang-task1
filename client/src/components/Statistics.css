@@ -1,0 +1,21 @@
+#statistics {
+    position: absolute;
+    top: -50px;
+    color: #557285;
+}
+
+table, th, td {
+    border: 1px solid #557285;
+    border-collapse: collapse;
+    min-height: 70px;
+    padding: 10px;
+    max-width: 300px;
+}
+
+td {
+    min-width: 100px;
+}
+
+thead {
+    background-color: #222e34;
+}

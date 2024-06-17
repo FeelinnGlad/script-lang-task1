@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Monocraft", Verdana, Tahoma, serif;;
+}
+
+body, html {
+    height: 100%;
+}
+
+#root-wrapper {
+    background-color: #1a2224;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#stats-table {
+    position: absolute;
+    display: inline-block;
+    left: 400px;
+    top: 50px;
+}
+
+#wrapper {
+    background-color: #222e34;
+    padding: 40px 60px;
+    margin-top: 30px;
+    width: 200px;
+    position: relative;
+}
+
+.header {
+    margin-top: 80px;
+    color: #bfdcdc;
+    text-shadow: 2px 2px #345b79;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: #222e34;
+    box-sizing: border-box;
+    width: 100%;
+    color: #345b79;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+@font-face {
+    font-family: "Monocraft";
+    src: url('../public/Monocraft.ttf') format("truetype");
+}

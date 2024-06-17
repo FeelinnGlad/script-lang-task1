@@ -1,0 +1,22 @@
+#button {
+    background-color: #345b79;
+    padding: 10px;
+    width: 200px;
+    border: 5px solid #557285;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#button:hover {
+    background-color: #557285;
+    cursor: pointer;
+}
+
+#button:active {
+    background-color: #839fb2;
+    cursor: pointer;
+}
+
+.disabled{
+    pointer-events: none;
+}
